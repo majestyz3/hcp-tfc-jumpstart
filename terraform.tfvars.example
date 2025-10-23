@@ -1,0 +1,10 @@
+tfe_token  = "tfc.xxxxxx"
+organization = "your-org-slug"
+github_app_installation_token = "ghs_xxx_or_ghu_xxx"
+repo_identifier = "your-org/your-repo"
+repo_branch = "main"
+working_directory = ""
+workspace_tags = ["env:prod", "owner:platform"]
+default_region = "eastus"
+prisma_url  = "https://prisma.example.com/run-task"
+prisma_hmac = "super-secret-hmac-key"
