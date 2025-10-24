@@ -21,11 +21,11 @@ variable "github_http_url" {
   default     = "https://github.com"
 }
 
-variable "github_app_installation_token" {
+/* variable "github_app_installation_token" {
   description = "GitHub App installation token with access to the target repo(s)"
   type        = string
   sensitive   = true
-}
+} */
 
 variable "project_name" {
   description = "Project name in TFC"

@@ -71,7 +71,7 @@ resource "tfe_workspace" "network" {
   }
 }
 
-resource "tfe_run_task" "prisma" {
+/* resource "tfe_run_task" "prisma" {
   name              = "Prisma Cloud"
   description       = "Validate Terraform plans with Prisma Cloud"
   url               = var.prisma_url
@@ -85,3 +85,4 @@ resource "tfe_workspace_run_task" "attach_prisma" {
   run_task_id  = tfe_run_task.prisma.id
   stage        = "post_plan"
 }
+ */
